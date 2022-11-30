@@ -1,0 +1,278 @@
+
+.header-top{
+	
+	
+}
+.header{
+	background-color:yellow;
+	height:40px;
+	
+}
+.container{
+	margin:0 auto;
+	width:1170px;
+	padding: 0 15px;
+	
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	margin-right:-15px;
+	margin-left:-15px;
+	
+
+	
+}
+.row>*{
+	width:100%;
+	padding:0px 15px;
+}*/
+.col-lg-1{
+	width:8.33%;
+}
+.col-lg-2{
+	width:16.66%;
+}
+.col-lg-3{
+	width:25%;
+}
+.col-lg-4{
+	width:33.33%;
+}
+.col-lg-5{
+	width:41.66%;
+}
+.col-lg-6{
+	width:50%;
+}
+.col-lg-7{
+	width:58.33%;
+}
+.col-lg-8{
+	width:66.66%;
+}
+.col-lg-9{
+	width:75%;
+}
+.col-lg-10{
+	width:83.33%;
+}
+.col-lg-11{
+	width:91.665;
+}
+.col-lg-12{
+	width:100%;
+}
+.justify-content-start{
+	justify-content:start !important;
+}
+.justify-content-evenly{
+	justify-content:space-evenly !important;
+	
+}
+.justify-content-around{
+		justify-content:space-around!important;
+}
+.justify-content-between{
+		justify-content:space-between !important;
+		
+}
+.justify-content-end{
+	justify-content:flex-end !important;
+	
+}
+.align-items-start{
+	align-items:flex-start !important;
+}
+.align-items-end{
+	align-items:flex-end !important;
+}
+.align-items-center{
+	align-items:flex-center !important;
+}
+.align-items-baseline{
+	align-items:flex-baseline !important;
+}
+/*=======header style======*/
+
+.header-info{
+	background-color:red;
+  height:10px;
+	margin-top:5px;
+}
+
+.header-end{
+	background-color:red;
+    margin-top:5px;
+	  height:10px;
+}
+.title{
+	background-color:green;
+	height:40px;
+	
+}
+.logo{
+		background-color:black;
+		 margin-top:5px;
+		   height:10px;
+}
+.navbar{
+		background-color:black;
+	   height:10px;
+		margin-top:5px;
+		
+}
+.banner{
+	background-color:black;
+	height:80vh;
+	
+}
+.main-content{
+	background-color:white;
+	height:200px;
+	margin-top:50px;
+}
+.layer{
+	background-color:gray;
+	height:70vh;
+}
+.inner-box{
+	background-color:blue;
+	height:300px;
+	margin-top:-35px;
+	
+}
+.inner-box-1{
+	background-color:blue;
+	height:400px;
+	margin-top:-100px;
+}
+.about{
+		background-color:red;
+	    height:70vh;
+}
+.ph-about{
+	background-color:blue;
+	height:200px;
+	margin-top:50px;
+	
+}
+.about-content{
+	background-color:blue;
+	height:200px;
+	margin-top:50px;
+}
+.company{
+	background-color:yellow;
+	height:30vh;
+}
+.logos{
+	height:20px;
+	background-color:black;
+	margin-top:80px;
+}
+.services{
+	background-color:red;
+	height:70vh;
+	
+}
+.services-info{
+	background-color:black;
+	height:120px;
+	margin-top:30px;
+	
+}
+.picture{
+	background-color:blue;
+	height:130vh;
+}
+.picture-color{
+	height:40vh;
+	background-color:black;
+	margin-top:80px;
+}
+.member{
+	background-color:black;
+	height:60vh;
+}
+.team-members{
+	background-color:white;
+	height:120px;
+	margin-top:50px;
+}
+.portfolio{
+	background-color:red;
+	height:100vh;
+}
+.port{
+	background-color:black;
+	height:120px;
+	margin-top:30px;
+	
+}
+.team{
+	background-color:yellow;
+	height:60vh;
+}
+.team-ph{
+	background-color:black;
+	height:200px;
+	margin-top:50px;
+
+}
+.pricing{
+	background-color:blue;
+	height:100vh;
+}
+.pricing-ph{
+	background-color:gray;
+	height:300px;
+	margin-top:50px;
+}
+.table{
+	background-color:pink;
+	height:120vh;
+}
+.bar{
+	background-color:white;
+	height:40px;
+	margin-top:50px;
+}
+.bar-1{
+	background-color:white;
+	height:100px;
+	margin-top:50px;
+}
+.contact{
+	background-color:gray;
+	height:130vh;
+}
+.cont{
+	background-color:red;
+	height:200px;
+	margin-top:50px;
+}
+.cont-1{
+	background-color:black;
+	height:300px;
+	margin-top:10px;
+}
+.footer{
+	background-color:black;
+	height:70vh;
+}
+.footer-la{
+	background-color:red;
+	height:200px;
+	margin-top:50px;
+}
+.end{
+	background-color:red;
+	height:60px;
+	
+}
+.simple{
+	background-color:yellow;
+	height:30px;
+	margin-top:5px;
+}
