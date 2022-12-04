@@ -5,7 +5,6 @@
 }
 .header{
 	background-color:black;
-	padding:5px 5px;
 }
 .container{
 	margin:0 auto;
@@ -25,7 +24,7 @@
 .row>*{
 	width:100%;
 	padding:0px 15px;
-}*/
+}
 .col-lg-1{
 	width:8.33%;
 }
@@ -94,7 +93,8 @@
 }
 /*=======header style======*/
 
-.header-info{
+.header-info .botton a{
+	background-color: #009bd9;
 }
 .header-info >a{
 	color:white;
@@ -106,21 +106,22 @@
 	color:white;
 	text-decoration:none;
 	font-size:15px;
-	
+	padding:0px 10px;
 }
-.header-info >a:hover{
-	color:orange;
+.header-info a:hover {
+	color:#009bd9;
 }
 .header-info >span:hover{
-		color:orange;
+		color:#009bd9;
 }
 iconify-icon{
 	font-size:20px;
+	padding-top:5px;
+	color: #009bd9;
 }
 .botton a{
-	background-color:orange;
 	color:white;
-	padding:15px 25px;
+	padding:10px 0px;
 	display:inline-block;
 	text-decoration:none;
 	text-align:center;
@@ -132,11 +133,11 @@ iconify-icon{
 
 .nav{
 	background-color:white;
-	padding:10px;
+	padding:10px 0px;
 }
 .logo{
 	 background-color:white;
-	 padding:10px ;
+	 padding:10px 0px ;
 }
 .logo>a{
 	color:gray;
@@ -153,17 +154,19 @@ iconify-icon{
 }
 .link a{
 	display:block;
-	padding:8px 12px;
+	padding:10px 0px;
 	text-decoration:none;
 	color:gray;
 	font-size:18px;
+	text-align:right !important;
+	padding:8px 12px;
 	
 }
 .link a:hover{
-	color:orange;
+	color:#009bd9;
 }
 .link a.active{
-	color:orange;
+	color:#009bd9;
 }
 .navbar{
 	     padding:10px;
@@ -171,14 +174,60 @@ iconify-icon{
 		
 }
 .banner{
-	background-color:black;
-	height:80vh;
+
+	padding:140px 0px;
+	background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url("image/hero-bg (2) (1) (1).jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
 	
 }
 .main-content{
-	background-color:white;
-	height:200px;
-	margin-top:50px;
+	padding:10px 0px;
+  
+}
+.main-content h2{
+	font-size:20px;
+	color:white;
+	padding:10px 0px;
+	font-family:'Raleway', sans-serif;
+	margin-bottom:25px;
+}
+.main-content h1{
+	font-size:50px;
+	color:white;
+	font-family:'Raleway', sans-serif;
+	font-weight:bold;
+	
+}
+.botton{
+	position:relative;
+	display:inline-block;
+	padding:6px 0px 6px 25px;
+	background-color:;
+	
+}
+.botton a.btn {
+	  border-radius:25px;
+	  padding-left:40px;
+	  padding-right:30px;
+	  transition:all.3s ease;
+	  font-size:15px;
+	  letter-spacing:1px;
+	  background-color: #333333;
+}
+.botton a.btn:hover{
+	background-color: #009bd9;
+}
+.botton >iconify-icon{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: #009bd9;
+	 border-radius:50%;
+	 align-items:center;
+	 line-height:50px;
+	 color:white;
 }
 .layer{
 	background-color:gray;
