@@ -92,12 +92,13 @@
 
 .header-info .botton a{
 	background-color: #009bd9;
+	padding:8px 0px;
 }
 .header-info >a{
 	color:white;
 	text-decoration:none;
 	font-size:15px;
-	padding:15px 10px;
+	padding:20px 10px;
 	
 }
 .header-info >span{
@@ -663,7 +664,7 @@ padding:30px 0px;
 .port{
 
 	margin-top:30px;
-	
+	position:relative;
 }
 .port-content{
 	text-align:center;
@@ -724,10 +725,45 @@ padding:30px 0px;
 	width:100%;
 	height:;
 }
-.aft ::after{
-	
-	
+.cont-port{
+	background-color:rgba(255, 255, 255, 0.9);
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:30px;
+	opacity:0;
+	justify-content:space-between;
+	    transition: all ease-in-out 0.3s;
 }
+
+.aft-1 {
+  
+	color:#473d3a;
+	font-size:30px;
+	padding:15px 20px;
+	margin-top:10px;
+}
+.cont-port{
+	display:flex;
+}
+.port:hover .cont-port{
+	opacity:1;
+}
+.aft h1{
+    font-family: 'Raleway', sans-serif;
+	color:#473d3a;
+	font-size:20px;
+	padding:10px 20px;
+}
+.aft p{
+    font-family: 'Raleway', sans-serif;
+	color:#7f6d68;
+	font-size:16px;
+	padding:10px 20px;
+}
+
+
 .team{
 	background-color:#f0fbfd;
 }
@@ -749,13 +785,15 @@ padding:30px 0px;
 	padding-bottom:20px;
 }
 .team-ph{
+	border-radius:5px;
 	margin-bottom:30px;
 	background-color:#fff;
 }
 .team-rel{
-	border-radius:5px;
+	border-radius:10px;
 	height:auto;
 	box-shadow:0px 0px 10px #f8f9fa;
+	text-align:center;
 }
 .team-ph img{
 	width:100%;
