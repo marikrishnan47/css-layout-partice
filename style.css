@@ -509,48 +509,34 @@ padding:30px 0px;
 }
 .ba-pic{
 	background-image:url(image/values-1.jpg);
-	width:100%;
-	height:auto;
-	background-position:center;
-	background-size:cover;
-   background-repeat:no-repeat;
-   border-radius:5px;
+
 
 }
 .ba-pic-1{
 	background-image:url(image/values-2.jpg);
-	width:100%;
-	height:auto;
-		background-position:center;
-	background-size:cover;
-   background-repeat:no-repeat;
-   border-radius:5px;
+
 }
 .ba-pic-2{
 	background-image:url(image/values-3.jpg);
-	width:100%;
-	height:auto;
-	margin-top:30px;
-		background-position:center;
-	background-size:cover;
-   background-repeat:no-repeat;
-   border-radius:5px;
+
 }
 .ba-pic-3{
 	background-image:url(image/values-4.jpg);
+
+}
+.ba{
 	width:100%;
 	height:auto%;
 	margin-top:30px;
+	padding:150px 30px 20px 30px ;
 	background-position:center;
 	background-size:cover;
    background-repeat:no-repeat;
    border-radius:5px;
 }
 .picture-color{
-	padding:10px 0px ;
+     padding:10px 0px;
 	background-color:#ffffffe6;
-	margin:20px 20px;
-	margin-top:200px;
 	border-radius:5px;
 	transition:all 1s ease;
 }
@@ -753,14 +739,15 @@ padding:30px 0px;
 }
 .cont-port{
 	background-color:rgba(255, 255, 255, 0.9);
-	position:absolute;
-	left:0;
-	right:0;
-	bottom:0;
-	margin:30px;
+	position:absolute;	
+	left:22px;
+	right:22px;
+	bottom:30px;
 	opacity:0;
 	justify-content:space-between;
-  transition: all ease-in-out 0.3s;
+    transition: 0.1s;
+	transform:translatey(40px);
+	visibility:hidden;
 }
 
 .aft-1 {
@@ -778,12 +765,27 @@ padding:30px 0px;
 }
 .port:hover .cont-port{
 	opacity:1;
+    transition: all ease-in-out 0.5s;
+	transform:translatey(0px);
+	visibility:visible;
 }
 .aft h1{
     font-family: 'Raleway', sans-serif;
 	font-size:400;
 	color:#473d3a;
 	font-size:20px;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	padding:10px 20px;
 }
 
@@ -1168,7 +1170,7 @@ padding:30px 0px;
 }
 .contact span iconify-icon{ 
 	
-	 width: 60px;
+    width: 60px;
     height: 60px;
     border-radius: 50%;
     border: dotted 1px #009bd9;
