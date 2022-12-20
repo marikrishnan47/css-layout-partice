@@ -133,15 +133,15 @@
 
 .nav{
 	background-color:white;
-	padding:0px 0px;
+   
 }
 .logo{
 	 background-color:white;
-	 padding:20px 0px ;
+	 padding:10px 0px ;
 }
 .logo>a{
 	color:#635551;
-	font-size:34px;
+	font-size:32px;
 	text-decoration:none;
 	display:inline-block;
 	font-weight:500;
@@ -157,7 +157,7 @@
 	padding:10px 0px;
 	text-decoration:none;
 	color:gray;
-	font-size:18px;
+	font-size:16px;
 	text-align:right !important;
 	padding:8px 12px;
 	
@@ -169,8 +169,8 @@
 	color:var(--primary-color);
 }
 .navbar{
-	     padding:10px;
-        margin-top:5px;
+	 padding:10px;
+    margin-top:5px;
 		
 }
 .banner{
@@ -333,16 +333,19 @@
 }
 .about-content h5{
 	color:#999;
-	font-size:18px;
+	font-size:20px;
 	margin-bottom:20px;
 	font-family: 'Poppins', sans-serif;
-	font-weight:800;
+	font-weight:500;
 }
 .about-content h2{
-	font-size:20px;
+	font-size:30px;
 	margin-bottom:25px;
-	font-weight:800;
+	font-weight:600;
 	font-family: 'Poppins', sans-serif;
+}
+.abt-text h4:hover{
+	color:var(--primary-color);
 }
 .about-content p{
 	font-size:14px;
@@ -364,14 +367,15 @@
 	line-height:70px;
 	font-size:30px;
 	flex:0 0 auto;
+	transition:0.5s;
 }
-.abt-item .abt-icon:hover{
+.abt-item:hover .abt-icon{
   background-color:var(--primary-color);
 }
 .abt-icon a{
 	color:var(--primary-color);
 }
-.abt-icon:hover a{
+.abt-item:hover a{
 	color:#fff;
 }
 
@@ -382,9 +386,11 @@
 	padding-left:20px;
 }
 .abt-text h4{
-	margin-bottom:20px;
+	display:inline-block;
+	margin-bottom:10px;
 	color:black;
-	font-weight:800;
+	font-size:20px;
+	font-weight:500;
 	font-family: 'Poppins', sans-serif;
 }
 .company{
@@ -754,8 +760,8 @@ padding:30px 0px;
 .aft-1 {
   
 	color:#473d3a;
-	font-size:30px;
-	padding:15px 10px;
+	font-size:26px;
+   padding:15px 0px;
    cursor:pointer;
 }
 .aft-1 iconify-icon:hover{
@@ -841,6 +847,10 @@ padding:30px 0px;
 	width:100%;
 	height:auto;
 }
+.apps a{
+	text-decoration:none;
+	color:black;
+}
 .team-rel h3{
 	padding:10px 0px;
     font-family: 'Raleway', sans-serif;
@@ -856,8 +866,7 @@ padding:30px 0px;
 
 .team-con{
 	text-align:center;
-    width:100%;
-	
+    width:100%;	
 }
 /*-------*/
 .pricing{
@@ -875,14 +884,14 @@ padding:30px 0px;
     padding:20px 0px;
 	color:#fff;
 	font-size:18px;
-    box-shadow:0px 0.1px  10px #b3ebf2;
+    box-shadow:0px 0.1px  15px #70edfd;
 }
 
 .pricing-con {
 	background-color:#fff;
 	text-align:center;
 	margin:50px 0px;
-	box-shadow:0px 0px 10px #eaeaea;
+	box-shadow:0px 0px 8px #eaeaea;
 	border-radius:5px;
 	position:relative;
 	overflow:hidden;
@@ -905,22 +914,25 @@ padding:30px 0px;
 .pricing-con h3{
 	color:#00bcd4;
    padding:20px 0px;
-   font-size:40px;
+   font-size:35px;
+   font-weight:600;
    
 }
 .pricing-con h3 sup{
    font-size:20px;
    vertical-align:20px;
 }
-
+.pricing-con p del{
+	color:#ccc;
+}
 .pricing-con p{
 	line-height:40px;
 	margin-bottom:20px;
-	color:#656262;
+	color:#313030;
 }
 .pricing-con span{
 	font-size:16px;
-	color:#656260;
+	color:#ccc;
 }
 .pri-end{
 	padding:40px 0px;
@@ -928,12 +940,12 @@ padding:30px 0px;
 }
 
 .pri-end a{
-	padding:10px 40px;
+	padding:10px 30px;
 	text-decoration:none;
 	background-color:#00bcd4;
 	border-radius:5px;
-	font-size:18px;
-	font-weight:bold;
+	font-size:16px;
+	font-weight:600;
 	color:#fff;
 	box-shadow: 0px 3px 8px #b3ebf2;
 }
@@ -944,12 +956,12 @@ padding:30px 0px;
 .pri-con-4 {
 	width:100%;
 	position:absolute;
-	right: -102px;
-    top: 16px;
+	right: -100px;
+    top: 15px;
 	background-color:#00bcd4;
 	text-align:center;
 	font-size:14px;
-	transform:rotate(50deg);
+	transform:rotate(45deg);
 }
 .pri-con-4  h3{
 	padding:10px 0px;
@@ -969,7 +981,7 @@ padding:30px 0px;
 	background-color:white;
     padding:20px 20px;
 	border-radius:5px;
-     margin:10px 0px;
+     margin:10px 80px;
 }
 .table-bar:hover a{
 	color:#00bcd1;
@@ -1003,14 +1015,16 @@ padding:30px 0px;
 	padding:60px 0px ;
 
 }
-
+.contact-box{
+	margin:0px 100px;
+}
 .cont{
 	background-color:#fff;
-	margin-top:50px;
-	margin:40px 20px;
+	margin:20px 0px;
+	
 	display:flex;
 	padding:20px 20px;
-	box-shadow:0px 0px 10px #c3c0c0;
+	box-shadow:0px 0px 30px rgb(214 215 216 );
 }
 .contact span iconify-icon{ 
 	
@@ -1031,23 +1045,32 @@ padding:30px 0px;
 	padding:0px 10px;
 }
 .contact-2 h1{
-	margin:10px 20px;
+	margin:10px 10px;
 	font-size:20px;
 	font-family: 'Poppins', sans-serif;
 	font-weight:800;
-	color:#c3c0c0;
+	color:#656262;
 }
 .contact-2 p{
-	padding:12px 18px;
-    
-	line-height:24px;
+	padding:12px 0px;
+	line-height:22px;
 }
 .cont-1{
 	background-color:#fff;
 	margin-top:10px;
-	margin:10px 20px;
+	margin:10px 100px;
 	padding:30px 10px ;
-	box-shadow:0px 0px 10px #c3c0c0;
+	box-shadow:0px 0px 30px rgb(214 215 216 );
+}
+.cont-1 input:focus{
+	border:solid 1px var(--primary-color);
+	outline:0;
+	
+}
+
+.input-4 textarea:focus{
+	border:solid 1px var(--primary-color);
+	outline:0;
 }
 .table-type{
 	display:flex;
@@ -1084,6 +1107,7 @@ padding:30px 0px;
 	padding:20px 30px;
 }
 .input-4 textarea{
+    
    padding:10px 20px ;
 	width:100%;
 	font-size:18px;
@@ -1167,10 +1191,34 @@ padding:30px 0px;
 	padding:28px 0px;
 	font-family: 'Poppins', sans-serif;
 }
-.footer-la input{
-	padding:8px 20px ;
+.input-btn{
+	position:relative;
+	padding:8px 0px;
+	border:solid 1px var(--primary-color);
+	border-radius:25px;
+	overflow:hidden;
+	background-color:#fff;
+}
+.input-btn input{
+	padding:4px 10px ;
+    border:none;
+	 font-size:18px;
+	 margin-left:12px;
 	
 }
+.input-btn button{
+	position:absolute;
+	top:0;
+	right:-1px;
+	bottom:0px;
+	padding:0px 20px ;
+    font-size:18px;
+	border-radius:25px;
+	border:solid 1px var(--primary-color);
+	background-color:var(--primary-color);
+	color:#fff;
+}
+
 
 .footer-end{
 	background-color:#fff;
@@ -1201,6 +1249,7 @@ padding:30px 0px;
 	padding:20px 0px;
 	
 }
+
 .footer-logo iconify-icon{
   
 }
