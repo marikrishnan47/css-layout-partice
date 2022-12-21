@@ -192,6 +192,7 @@
 	margin-bottom:25px;
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
+	opacity:0.7;
 }
 .main-content h1{
 	font-size:50px;
@@ -269,6 +270,7 @@
 	font-weight:700;
    line-height:40px;
 	margin-bottom:20px;
+	letter-spacing:1px;
 	color:white;
 	font-family: 'Raleway', sans-serif;
 }
@@ -419,7 +421,7 @@ padding:30px 0px;
 }
 .circle{
 	text-align:center;
-  padding:10px;
+  
 }
 .circle span{
 	display:inline-block;
@@ -872,7 +874,6 @@ padding:30px 0px;
 }
 .pricing-content{
 	text-align:center;
-	margin-top:30px;
 	
 }
 
@@ -887,7 +888,7 @@ padding:30px 0px;
 .pricing-con {
 	background-color:#fff;
 	text-align:center;
-	margin:50px 0px;
+	margin:20px 0px;
 	box-shadow:0px 0px 8px #eaeaea;
 	border-radius:5px;
 	position:relative;
@@ -978,7 +979,7 @@ padding:30px 0px;
 	background-color:white;
     padding:20px 20px;
 	border-radius:5px;
-     margin:10px 80px;
+     margin:10px 160px;
 }
 .table-bar:hover a{
 	color:#00bcd1;
@@ -1220,6 +1221,10 @@ padding:30px 0px;
 	border:solid 1px var(--primary-color);
 	background-color:var(--primary-color);
 	color:#fff;
+	box-shadow:0px 2px 15px rgb(0 0 0 / 10%);
+}
+.input-btn button:hover{
+	opacity:;
 }
 
 
@@ -1241,6 +1246,9 @@ padding:30px 0px;
 }
 .footer-mail p{
 	color:#656262;
+}
+.footer-mail p:hover{
+	opacity:0.7;
 }
 .footer-mail p a{
 	text-decoration:none;
