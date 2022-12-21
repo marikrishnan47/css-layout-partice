@@ -137,15 +137,15 @@
 }
 .logo{
 	 background-color:white;
-	 padding:10px 0px ;
+	 padding:18px 0px ;
 }
 .logo>a{
 	color:#635551;
 	font-size:32px;
 	text-decoration:none;
 	display:inline-block;
-	font-weight:500;
-	
+	font-weight:600;
+	font-family: 'Raleway', sans-serif;
 }
 .menu{
 	display:flex;
@@ -174,8 +174,7 @@
 		
 }
 .banner{
-
-	padding:180px 0px;
+	padding:30px 0px;
 	background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url("image/hero-bg.jpg");
 	background-size:cover;
 	background-position:center;
@@ -183,39 +182,38 @@
 	background-attachment:fixed;
 } 
 .main-content{
-	padding:10px 0px;
-  
+	margin-top:280px;
+	margin-bottom:260px;
 }
 .main-content h2{
-	font-size:20px;
-	color:white;
-	padding:10px 0px;
+	font-size:26px;
+	color:#eee;
+	padding:20px 0px;
 	margin-bottom:25px;
 	font-family: 'Raleway', sans-serif;
-	font-weight:400;
+	font-weight:600;
 }
 .main-content h1{
 	font-size:50px;
 	color:white;
 	font-family: 'Raleway', sans-serif;
-	font-weight:900;
+	font-weight:800;
 	
 }
 .botton{
 	position:relative;
 	display:inline-block;
-	background-color:;
-	
 }
 .botton a.btn {
 	  margin-left: 13px;
       margin-top: 6px;	
 	  border-radius:25px;
-	  padding-left:38px;
-	  padding-right:14px;
+	  padding-left:40px;
+	  padding-right:20px;
 	  transition:all.3s ease;
 	  font-size:16px;
 	  letter-spacing:1px;
+	  transition: 0.5s;
 	  background-color: #333333;
 }
 .botton a.btn:hover{
@@ -226,26 +224,27 @@
 	top:0;
 	left:0;
 	background-color:var(--primary-color);
-	 border-radius:50%;
-	 align-items:center;
+    border-radius:50%;
+	align-items:center;
 	 line-height:50px;
 	  padding:14px;
+	 box-shadow: 3px 0px 15px #0000001a;
 	  font-size:20px;
-	 color:white;
+	 color:#fff;
 }
 .layer{
 	background-color:white;
-    padding-bottom:20px;
+    padding:0px 0px;
 }
 .inner-box{
 	background-color:white;
-	padding:20px 0px;
+	padding:40px 0px;
 	position:relative;
-	top:-50px;
-	box-shadow:0px 5px 5px #ccc;
-	border-radius:5px;
-	height:100%;
+	top:-100px;
+	box-shadow:0px 5px 15px #ccc;
+	border-radius:10px;
 	text-align:center;
+	display:inline-block;
 }
 .inner-box h4{
 	font-size:20px;
@@ -258,15 +257,17 @@
 }
 .inner-box p{
 	font-size:16px;
-	padding:20px 20px;
+	padding:0 18px;
+	padding-bottom:20px;
 	text-align:center;
 	line-height:22px;
+	color:#716f6f;
 }
 
 .inner-box-1 h1{
-	font-size:30px;
-	font-weight:900;
-	padding:30px 25px;
+	font-size:34px;
+	font-weight:700;
+   line-height:40px;
 	margin-bottom:20px;
 	color:white;
 	font-family: 'Raleway', sans-serif;
@@ -274,21 +275,22 @@
 .inner-box-1 p{
 	font-size:16px;
 	line-height:25px;
-	padding:8px 30px;
-	margin-bottom:20px;
+	padding:8px 0px;
+	margin-bottom:30px;
 	color:white;
 }
 .inner-box-1{
 	background-color:var(--primary-color);
-	padding:30px 0px;
+	padding:40px 20px;
 	position:relative;
-	top:-100px;
+	top:-200px;
 	box-shadow:0px 5px 5px #ccc;
 	border-radius:5px;
+	margin-bottom:-80px;
 }
 .botton a.bt {
 	  border-radius:25px;
-	  padding:8px 25px;
+	  padding:14px 25px;
 	  transition:all.3s ease;
 	  font-size:15px;
 	  letter-spacing:1px;
@@ -305,16 +307,20 @@
 .about{
 	 background-color:#f0fbfd;
       padding:40px 0px;
+	  
 }
+
 .ph-about{
-    background-image:url('image/about-img.jpg');
+
+   background-image:url("image/about-img.jpg");
 	background-size:cover;
 	background-position:center;
     background-repeat:no-repeat;
-	display:flex;
+		display:flex;
 	justify-content:center;
 	align-items:center;
-     height:100%;
+
+    
 }
 .ph-about a{
 	background-color:var(--primary-color);
@@ -328,8 +334,9 @@
 	
 	
 }
-.about-conten{
-	padding:10px 0 0 30px;
+.about-content{
+	padding:60px 0 60px 30px;
+
 }
 .about-content h5{
 	color:#999;
@@ -392,6 +399,7 @@
 	font-size:20px;
 	font-weight:500;
 	font-family: 'Poppins', sans-serif;
+	cursor:pointer;
 }
 .company{
 padding:30px 0px;
@@ -514,35 +522,29 @@ padding:30px 0px;
 }
 .picture{
 	background-color:#fff;
-	padding:60px 0px;
+	padding:80px 0px;
 }
 .ba-pic{
 	background-image:url(image/values-1.jpg);
-
-
 }
 .ba-pic-1{
 	background-image:url(image/values-2.jpg);
-
 }
 .ba-pic-2{
 	background-image:url(image/values-3.jpg);
-
 }
 .ba-pic-3{
 	background-image:url(image/values-4.jpg);
-	
-
 }
 .ba{
 	width:100%;
 	height:auto%;
-	margin-top:30px;
+	margin-top:20px;
 	padding:160px 30px 20px 30px ;
 	background-position:center;
 	background-size:cover;
     background-repeat:no-repeat;
-   border-radius:5px;
+    border-radius:5px;
 }
 .picture-color{
     padding:10px 20px;
@@ -804,34 +806,29 @@ padding:30px 0px;
 	background-color:#fff;
 	position:relative;
 	overflow:hidden;
+	box-shadow:0px 0px 10px rgb(214 215 216 );
 }
 .apps{
-	padding:20px 0px;
-	position:absolute;
-	left:0;
-	right:0;
-	bottom:80px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	background-color:rgba(255, 255, 255, 0.9);
-	opacity:0;
-}
-.team-ph:hover .apps{
-	padding:10px 5px;
+	padding:10px 0px;
 	position:absolute;
 	left:0;
 	right:0;
 	bottom:70px;
 	display:flex;
+	justify-content:center;
+	align-items:center;
 	background-color:rgba(255, 255, 255, 0.9);
+	opacity:0;
+	transition: all ease 0.8s;
+}
+.team-ph:hover .apps{
 	opacity:1;
-	transition: all ease 1;
 	display:block;
 }
 .apps iconify-icon{
-	font-size:25px;
+	font-size:22px;
 	padding:0px 5px;
+	color:#473d3a;
 }
 .apps iconify-icon:hover{
 	color:var(--primary-color);
@@ -855,12 +852,12 @@ padding:30px 0px;
 	padding:10px 0px;
     font-family: 'Raleway', sans-serif;
 	font-weight:900;
-	color:#635551;
+	color:#473d3a;
 	font-size:20px;
 }
 .team-rel p{
 	font-weight:400;
-	color:#635551;
+	color:#989595;
 	padding-bottom:10px;
 }
 
@@ -1080,31 +1077,35 @@ padding:30px 0px;
 
 	width:100%;
 	padding:10px 10px ;
+	border:solid 1px #ced4da;
 }
 .input-1{
-	padding:20px 30px;
+	padding:20px 10px;
 	width:100%;
 }
 .input-2{
-	padding:20px 30px;
+	padding:20px 10px;
 	width:100%;
 }
 .input-2 input{
 
 	width:100%;
 	padding:10px 10px ;
+	color:#ced4da;
+	border:solid 1px #ced4da;
 	
 }
 .input-3{
-	padding:20px 30px;
+	padding:20px 10px;
 }
 .input-3 input{
     font-size:16px;
 	width:100%;
 	padding:10px 10px ;
+	border:solid 1px #ced4da;
 }
 .input-4{
-	padding:20px 30px;
+	padding:20px 10px;
 }
 .input-4 textarea{
     
@@ -1112,6 +1113,7 @@ padding:30px 0px;
 	width:100%;
 	font-size:18px;
 	padding-bottom:80px ;
+	border:solid 1px #ced4da;
 }
 .table-btn{
 	padding:0px 10px;
@@ -1198,6 +1200,7 @@ padding:30px 0px;
 	border-radius:25px;
 	overflow:hidden;
 	background-color:#fff;
+
 }
 .input-btn input{
 	padding:4px 10px ;
@@ -1250,8 +1253,8 @@ padding:30px 0px;
 	
 }
 
-.footer-logo iconify-icon{
-  
+.footer-la li  iconify-icon{
+      color: var(--primary-color);
 }
 .footer-logo a{
   background-color:var(--primary-color);
