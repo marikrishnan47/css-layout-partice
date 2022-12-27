@@ -1,0 +1,187 @@
+@media (max-width:576px){
+		.col-xs-1{
+	flex:0 0 auto;
+	width:8.33%;
+}
+.col-xs-2{
+	flex:0 0 auto;
+	width:16.66%;
+}
+.col-xs-3{
+	flex:0 0 auto;
+	width:25%;
+}
+.col-xs-4{
+	flex:0 0 auto;
+	width:33.33%;
+}
+.col-xs-5{
+	flex:0 0 auto;
+	width:41.66%;
+}
+.col-xs-6{
+	flex:0 0 auto;
+	width:50%;
+}
+.col-xs-7{
+	flex:0 0 auto;
+	width:58.33%;
+}
+.col-xs-8{
+	flex:0 0 auto;
+	width:66.66%;
+}
+.col-xs-9{
+	flex:0 0 auto;
+	width:75%;
+}
+.col-xs-10{
+	flex:0 0 auto;
+	width:83.33%;
+}
+.col-xs-11{
+	flex:0 0 auto;
+	width:91.665%;
+}
+.col-xs-12{
+	flex:0 0 auto;
+	width:100%;
+}
+.main-content h1 {
+    font-size: 34px;
+ 
+}
+.main-content h4 {
+    font-size: 12px;
+ 
+}
+	.none{
+		display:none;
+	}
+	.header-info{
+		padding:10px 0px;
+	
+	}
+	.navbar{
+		display:none;
+	}
+	.inner-box{
+		margin-top:30px;
+	}
+	.ph-about{
+		height:400px;
+	}
+	.about-content {
+    padding: 60px 0 60px 0px;
+}
+.logos {
+    padding: 10px 0px;
+}
+.table-bar{
+	margin:10px 0px;
+}
+.contact-box {
+    margin: 0px 0px;
+}
+.contact-1 {
+    padding: 0px 50px;
+}
+.cont{
+	margin-top:20px;
+}
+.cont-1{
+	margin:10px 0px;
+}
+.pri-con-4{
+    right: -155px;
+    top: 24px;
+}
+.team-ph{
+	margin:20px 0px;
+}
+.footer-logo{
+	margin-top:20px;
+	justify-content:center;
+}
+.footer-end{
+	text-align:center;
+}
+.table-type{
+	padding:0px 14px;
+}
+}
+	
+@media (min-width:576px){
+	.container{
+		width:550px;
+	}
+}
+@media (min-width:768px){
+	.container{
+		width:720px;
+	}
+
+}
+@media (min-width:992px){
+	.container{
+		width:950px;
+	}
+}
+@media (min-width:1200px){
+	.container{
+		width:1170px;
+	}
+	.col-lg-1{
+	flex:0 0 auto;
+	width:8.33%;
+}
+.col-lg-2{
+	flex:0 0 auto;
+	width:16.66%;
+}
+.col-lg-3{
+	flex:0 0 auto;
+	width:25%;
+}
+.col-lg-4{
+	flex:0 0 auto;
+	width:33.33%;
+}
+.col-lg-5{
+	flex:0 0 auto;
+	width:41.66%;
+}
+.col-lg-6{
+	flex:0 0 auto;
+	width:50%;
+}
+.col-lg-7{
+	flex:0 0 auto;
+	width:58.33%;
+}
+.col-lg-8{
+	flex:0 0 auto;
+	width:66.66%;
+}
+.col-lg-9{
+	flex:0 0 auto;
+	width:75%;
+}
+.col-lg-10{
+	flex:0 0 auto;
+	width:83.33%;
+}
+.col-lg-11{
+	flex:0 0 auto;
+	width:91.665%;
+}
+.col-lg-12{
+	flex:0 0 auto;
+	width:100%;
+}
+}
+@media (min-width:1400px){
+	.container{
+		width:1320px;
+	}
+}
