@@ -18,15 +18,15 @@
 				<div class="header">
 					<section class="container">
 						<div class="row">
-							<div class="col-lg-9 ">
+							<div class="col-lg-9 col-md-9 ">
 								<div class="header-info">
 									<iconify-icon inline icon="wpf:message-outline" style="color:  #009bd9;"></iconify-icon><a href="contact@example.com">contact@example.com</a>
 									<iconify-icon inline icon="ic:baseline-phone-iphone" style="color:  #009bd9;"></iconify-icon>  <span> +1 5589 55488 55</span>
 								</div>
 							</div>	
-							<div class="col-lg-3 text-right">
+							<div class="col-lg-3  col-md-3 text-right">
 								<div class="header-info1">
-								 <span class="botton none">
+								 <span class="botton col-xs-none">
 								  <a href="botton"> Get Started</a>
 								 </span>
 								</div>
@@ -34,16 +34,19 @@
 						</div>			
 					</section>
 				</div>	
-							<div class= "nav">	
+							<div class= "nav ">	
 								<div class="container">
 									<div class="row align-items-center">
+									
+									  <button class="but-btn col-lg-none"><iconify-icon icon="ion:menu-sharp"></iconify-icon></button>
+								
 										<div class="col-lg-3">
 										  <div class="logo">
 										  <a href="#">Flexor</a>
 										  </div>
 										</div>
-										<div class="col-lg-9">
-											<div class="navbar">
+										<div class="col-lg-9 d-none col-lg-block">
+											<div class="navbar ">
 												<ul class="menu">
 													<li class="link"><a href="home" class="active">Home </a></li>
 													<li  class="link"><a href="about"> About</a></li>
@@ -100,20 +103,20 @@
 						<div class="col-lg-8" class="box">
 							<div class="row">
 							   <div class="col-lg-4">
-									<div class="inner-box">
+									<div class="inner-box col-md-inner">
 									<iconify-icon icon="bx:receipt" style="color: #009bd9;" width="40" height="40" class="icon"></iconify-icon>
 									<h4>Corporis voluptates sit</h4>
 									<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 									</div>
 							   </div>
-							   <div  class="col-lg-4">
+							   <div  class="col-lg-4 col-md-inner">
 									<div class="inner-box">
 									<iconify-icon icon="tabler:box" style="color: #009bd9;" width="40" height="40" class="icon"></iconify-icon>
 									<h4>Ullamco laboris ladore pan</h4>
 									<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
 									</div>
 							   </div>
-							   <div class="col-lg-4">
+							   <div class="col-lg-4 col-md-inner">
 									<div class="inner-box">
 									<iconify-icon icon="bx:images" style="color: #009bd9;" width="40" height="40" class="icon"></iconify-icon>
 									<h4>Labore consequatur</h4>
@@ -177,32 +180,32 @@
 			<div class="company">
 				<div class="container">
 					<div class="row align-items-center">
-						<div class="col-lg-2 col-xs-4">
+						<div class="col-lg-2 col-xs-4 col-md-3">
 							<div class="logos">
 							<img src="image/client-1.png"/>
 							</div>
 						</div>
-						<div class="col-lg-2 col-xs-4">
+						<div class="col-lg-2 col-xs-4 col-md-3">
 						 <div class="logos">
 						  <img src="image/client-2.png" />
 						 </div>
 						</div>
-						<div class="col-lg-2 col-xs-4">
+						<div class="col-lg-2 col-xs-4 col-md-3">
 						  <div class="logos">
 						   <img src="image/client-3.png" />
 						  </div>
 						</div>
-						<div class="col-lg-2 col-xs-4">
+						<div class="col-lg-2 col-xs-4 col-md-3">
 						  <div class="logos">
 						  <img src="image/client-4.png" />
 						  </div>
 						</div>
-						<div class="col-lg-2 col-xs-4">
+						<div class="col-lg-2 col-xs-4 col-md-none col-lg-block">
 						   <div class="logos">
 						    <img src="image/client-5.png" />
 						   </div>
 						</div>
-						<div class="col-lg-2 col-xs-4">
+						<div class="col-lg-2 col-xs-4 col-md-none col-lg-block">
 						    <div class="logos">
 							<img src="image/client-6.png" />
 							</div>
@@ -221,21 +224,21 @@
 <!------- logo end ---->
             <div class="services">
 				<div class="container">
-									<div class="row">
+								<div class="row">
 											 <div class="title-head">
 												<h3>Services</h3>
 											   <p>Magnam dolores commodi suscipit. Necessitatibus eius 
 												  consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
 														Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas..</p>
 											 </div>
-											<div class="col-lg-4">
+											<div class="col-lg-4 col-md-6">
 												 <div class="services-info"> 
 												 <div class="cir">  <iconify-icon icon="bi:briefcase"></iconify-icon></div>
 												   <h2>LOREM IPSUM</h2>
 												   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
 												 </div>
 											</div>
-											<div class="col-lg-4">
+											<div class="col-lg-4 col-md-6">
 												 <div class="services-info"> 
 														 <div class="cir">  <iconify-icon icon="bi:card-checklist"></iconify-icon></div>
 												   <h2>DOLOR SITEMA</h2>
@@ -244,18 +247,14 @@
 											 </div>
 												 
 								
-											<div class="col-lg-4">
+											<div class="col-lg-4 col-md-6">
 												 <div class="services-info">
 														 <div class="cir">  <iconify-icon icon="bi:bar-chart"></iconify-icon></div>
 												   <h2>SED UT PERSPICIATIS</h2>
 												   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
 												 </div>
-												 </div>
 											</div>
-									
-										
-									<div class="row">
-										<div class="col-lg-4">
+										<div class="col-lg-4 col-md-6">
 											 <div class="services-info">
 													 <div class="cir"> <iconify-icon icon="bi:binoculars"></iconify-icon></div>
 												   <h2>MAGNI DOLORES</h2>
@@ -263,7 +262,7 @@
 												 
 											 </div>
 										</div>
-										<div class="col-lg-4">
+										<div class="col-lg-4 col-md-6">
 											 <div class="services-info">
 													 <div class="cir">  <iconify-icon icon="quill:sun"></iconify-icon></div>
 												   <h2>NEMO ENIM</h2>
@@ -271,7 +270,7 @@
 												 
 											 </div>
 										</div>
-										<div class="col-lg-4">
+										<div class="col-lg-4 col-md-6">
 											 <div class="services-info">
 													 <div class="cir">  <iconify-icon icon="bi:calendar4-week"></iconify-icon></div>
 												   <h2>EIUSMOD TEMPOR</h2>
@@ -287,48 +286,34 @@
                 <div class="picture">
 				    <div class="container">
 						<div class="row">
-							    <div class="col-lg-6">
-								    <div  class="ba-pic ba">
-								        
-											 
+							    <div class="col-lg-6 col-md-6">
+								    <div  class="ba-pic ba">	 
 											    <div class="picture-color">
 													  <h3 class="mis"><a href="#">Our Mission</a></h3>
 													<p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
 													  <div class="read"><iconify-icon icon="bi:arrow-right"></iconify-icon><a href="#">READ MORE</a></div>
 											    </div>
-											
-								       
 								    </div>	
 							    </div>
-							    <div class="col-lg-6">
+							    <div class="col-lg-6 col-md-6">
 									<div  class="ba-pic-1 ba">	
-										
-											 
 												<div class="picture-color">
 												 <h3 class="mis"><a href="#">Our Plan</a></h3>
 													<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
 													  <div class="read"><iconify-icon icon="bi:arrow-right"></iconify-icon><a href="#">READ MORE</a></div>
 												</div>
-											
-										 
 									</div>
 							    </div>	 
-						</div>
-						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-md-6">
 							    <div  class="ba-pic-2 ba">
-							        
-									   
 							                <div class="picture-color">
                                                  <h3 class="mis"><a href="#">Our Vision</a></h3>
 													<p>Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
 													  <div class="read"><iconify-icon icon="bi:arrow-right"></iconify-icon><a href="#">READ MORE</a></div>
-										    </div>
-									    
-								       
+										    </div>   
 							    </div>
 							</div>	
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-md-6">
 							    <div  class="ba-pic-3 ba">	
 								    
 									    
@@ -387,7 +372,7 @@
 									</ul>
 						    </div>
 					<div class="row">
-							<div class="col-lg-4">
+							<div class="col-lg-4 col-md-6 ">
 								<div class="port">
 								  <img src="image/portfolio-1.jpg"/>
 								    <div class="cont-port">
@@ -401,10 +386,10 @@
 								    </div>	
 								</div>
 							</div>
-							<div class="col-lg-4">
-								 <div class="port">
+							<div class="col-lg-4 col-md-6">
+								<div class="port">
 								  <img src="image/portfolio-2.jpg"/>
-								  				    <div class="cont-port">
+								    <div class="cont-port">
 										<div class="aft">
 										   <h1>  Web 3</h1>
 											  <p> web</p>
@@ -413,12 +398,12 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-								 </div>
+								</div>
 							</div>
-							<div class="col-lg-4">
-								 <div class="port"> 
+							<div class="col-lg-4 col-md-6">
+								<div class="port"> 
 								  <img src="image/portfolio-3.jpg"/>
-								  				    <div class="cont-port">
+								    <div class="cont-port">
 										<div class="aft">
 										   <h1>  App 3</h1>
 											  <p> App</p>
@@ -427,14 +412,12 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-								 </div>
+								</div>
 							</div>
-					</div>		
-					<div class="row">
-						<div class="col-lg-4">
-							 <div class="port">
+						<div class="col-lg-4 col-md-6">
+							<div class="port">
                                <img src="image/portfolio-4.jpg"/>	
-				    <div class="cont-port">
+				                <div class="cont-port">
 										<div class="aft">
 										   <h1>  card 2</h1>
 											  <p> card</p>
@@ -442,13 +425,13 @@
 										<div class="aft-1">
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
-								    </div>								   
+								</div>								   
 							 </div>
 						</div>
-						<div class="col-lg-4">
-							 <div class="port">
-							  <img src="image/portfolio-5.jpg"/>
-							  				    <div class="cont-port">
+						<div class="col-lg-4 col-md-6">
+							<div class="port">
+							   <img src="image/portfolio-5.jpg"/>
+									<div class="cont-port">
 										<div class="aft">
 										   <h1>  Web 2</h1>
 											  <p> web</p>
@@ -457,12 +440,12 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-							 </div>
+							</div>
 						</div>
-						<div class="col-lg-4">
-							 <div class="port">
-							  <img src="image/portfolio-6.jpg"/>
-							  				    <div class="cont-port">
+						<div class="col-lg-4 col-md-6">
+							<div class="port">
+							         <img src="image/portfolio-6.jpg"/>
+									<div class="cont-port">
 										<div class="aft">
 										   <h1>  App 3</h1>
 											  <p> App</p>
@@ -471,12 +454,10 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-							 </div>
-						</div>
-					</div>	
-					<div class="row">
-						<div class="col-lg-4">
-							 <div class="port"> 
+							</div>
+						</div>					
+						<div class="col-lg-4 col-md-6">
+							<div class="port"> 
 							  <img src="image/portfolio-7.jpg"/>
 							 	    <div class="cont-port">
 										<div class="aft">
@@ -487,10 +468,10 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-							 </div>
+							</div>
 						</div>
-						<div class="col-lg-4">
-							 <div class="port">
+						<div class="col-lg-4 col-md-6">
+							<div class="port">
 							  <img src="image/portfolio-8.jpg"/>
 							  	    <div class="cont-port">
 										<div class="aft">
@@ -501,10 +482,10 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-							 </div>
+							</div>
 						</div>
-						<div class="col-lg-4">
-							 <div class="port">
+						<div class="col-lg-4 col-md-6">
+							<div class="port">
 							  <img src="image/portfolio-9.jpg"/>
 							  	    <div class="cont-port">
 										<div class="aft">
@@ -515,7 +496,7 @@
 										 <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
 										</div>
 								    </div>	
-							 </div>
+							</div>
 						</div>
 					</div>	
 				</div>
@@ -524,68 +505,66 @@
 <!------- portfoilo end------>	
             <div class="team">
 				<div class="container">
-						     <div class="title-head">
+						    <div class="title-head">
 						     <h3> Team</h3>
 						        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
 								   Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
 								    Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 							</div>		
 				    <div class="row">
-						<div class="col-lg-3">
-						<div class="team-rel">
-						    <div class="team-ph">
-						        <img src="image/team/team-2.jpg"/>
-								<div class="apps">
-								  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
-								</div>
-							
-							    <h3>Sarah Jhonson</h3>
-							     <p>Product Manager</p>
-							  
-
-						    </div>
-				      	</div>
-						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="team-rel">
-						    <div class="team-ph">
-						        <img src="image/team/team-3.jpg"/>
-								<div class="apps">
-					  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
-								</div>
-							
-							    <h3>William Anderson</h3>
-							     <p>CTO</p>
-							  
+								<div class="team-ph">
+									<img src="image/team/team-2.jpg"/>
+									<div class="apps">
+									  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
+									  <a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
+									  <a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
+									  <a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
+									</div>
+								
+									<h3>Sarah Jhonson</h3>
+									 <p>Product Manager</p>
+								  
 
-						    </div>
-				      	</div>
+								</div>
+							</div>
 						</div>
-					    <div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="team-rel">
-						    <div class="team-ph">
-						        <img src="image/team/team-4.jpg"/>
-								<div class="apps">
-					  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
-								<a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
+								<div class="team-ph">
+									<img src="image/team/team-3.jpg"/>
+									<div class="apps">
+											  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
+											  <a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
+											  <a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
+											   <a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
+									</div>
+								
+									<h3>William Anderson</h3>
+									 <p>CTO</p>
 								</div>
-							
-							    <h3>Amanda Jepson</h3>
-							     <p>Accountant</p>
-							  
-
-						    </div>
-				      	</div>
+				      	    </div>
 						</div>
-						<div class="col-lg-3">
+					    <div class="col-lg-3 col-md-6">
+							<div class="team-rel">
+								<div class="team-ph">
+									 <img src="image/team/team-4.jpg"/>
+									<div class="apps">
+										  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
+									      <a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
+									      <a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
+									      <a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
+									</div>
+								
+									<h3>Amanda Jepson</h3>
+									 <p>Accountant</p>
+								  
+
+								</div>
+				      	    </div>
+						</div>
+						<div class="col-lg-3 col-md-6">
 						<div class="team-rel">
 						    <div class="team-ph">
 						        <img src="image/team/team-1.jpg"/>
@@ -598,8 +577,6 @@
 							
 							    <h3>Walter White</h3>
 							     <p>Chief Executive Officer</p>
-							  
-
 						    </div>
 				      	</div>
 						</div>
@@ -616,8 +593,7 @@
 								    Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 						</div>	
 				    <div class="row">
-						<div class="col-lg-3">
-						
+						<div class="col-lg-3 col-md-6">
 						    <div class="pricing-con">
 						          <h4>Free</h4>
 						           <h3><sup>$</sup>0<span>/month</span></h3>
@@ -627,8 +603,7 @@
 						        </div>
 						    </div>
 						</div>
-						<div class="col-lg-3"> 
-						
+						<div class="col-lg-3 col-md-6"> 
 							<div class="pricing-con active">
 							    <h4>Business</h4>
 						           <h3><sup>$</sup>19<span>/month</span></h3>
@@ -638,7 +613,7 @@
 						        </div>
 							</div>
 						</div>
-					    <div class="col-lg-3">
+					    <div class="col-lg-3 col-md-6">
 							<div class="pricing-con">
 							     <h4>developer</h4>
 						           <h3><sup>$</sup>29<span>/month</span></h3>
@@ -648,7 +623,7 @@
 						        </div>
 							</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="pricing-con last">
 								     <h4>Ultimate</h4>
 						           <h3><sup>$</sup>49<span>/month</span></h3>
@@ -753,23 +728,23 @@
 						</div>	
 						<div class="col-lg-4">
 							<div class="cont">
-							<div class="contact-1">
+							    <div class="contact-1">
 								 <span><iconify-icon icon="bx:envelope"></iconify-icon></span>
 								</div>
 								<div class="contact-2">
-								<h1>Email Us</h1>
-								<p>info@example.com<br>contact@example.com</p>
+								   <h1>Email Us</h1>
+								   <p>info@example.com<br>contact@example.com</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="cont">
-							<div class="contact-1">
+							    <div class="contact-1">
 								 <span><iconify-icon icon="bx:phone-call"></iconify-icon></span>
 								</div>
 								<div class="contact-2">
-								<h1>Call Us</h1>
-								<p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+								   <h1>Call Us</h1>
+								    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
 								</div>
 							</div>
 						</div>
@@ -781,13 +756,13 @@
 							
 						    <div class="table-type row">
 							
-								    <div class="input-1 col-xs-12">
+								    <div class="input-1 col-lg-6 col-xs-12 col-md-6">
 								   
 		                             <input type="name" placeholder="Your Name" />
 								    </div>
 								
 								
-									<div class="input-2 col-xs-12">
+									<div class="input-2  col-lg-6 col-xs-12 col-md-6">
 									 <input type="name" placeholder="Your Email" />
 									</div>
 								
@@ -817,17 +792,17 @@
 		    <div class="footer">
 				<div class="container">
 				    <div class="row">
-						<div class="col-lg-3">
-						   <div class="footer-la-1">
+						<div class="col-lg-3 col-md-6">
+						    <div class="footer-la-1">
 						       <h1>	Flexor</h1>
 						         <p>A108 Adam Street<br>
                                New York, NY 535022<br>
                                        United States</p>
 									   <h4><span>phone:</span>+1 5589 55488 55</h4>
 									    <h4><span>Email:</span>nfo@example.com</h4>
-						    </div>
+						    </div> 
 						</div>
-						<div class="col-lg-2">
+						<div class="col-lg-2 col-md-6">
 							<div class="footer-la">
 							     <h3>Useful Links</h3>
 								 <ul>
@@ -839,7 +814,7 @@
 								 </ul>
 							</div>
 						</div>
-					    <div class="col-lg-3">
+					    <div class="col-lg-3 col-md-6">
 							<div class="footer-la">
 							     <h3>Our Services</h3>
 								 <ul>
@@ -851,8 +826,8 @@
 								 </ul>
 							</div>
 						</div>
-						<div class="col-lg-4">
-								<div class="footer-la">
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-la">
 								<h3>Join Our Newsletter</h3>
 								<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 								<div class="input-btn">
@@ -868,7 +843,7 @@
 		    <div class="footer-end">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-8  col-xs-">
+						<div class="col-lg-8">
 						  <div class="footer-mail"> 
 							  <p>Designed by<a href="#"> Mari krishnan.M</a></p>
 						  </div>
@@ -885,5 +860,6 @@
 					</div>
 				</div>
 			</div>
+			<!-- --------------------end ----------------------------- -->
 		</body>
 	</html>

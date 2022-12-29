@@ -48,14 +48,14 @@
 	width:100%;
 }
 .main-content h1 {
-    font-size: 34px;
+    font-size: 30px;
  
 }
 .main-content h4 {
-    font-size: 12px;
+    font-size: 10px;
  
 }
-	.none{
+	.col-xs-none{
 		display:none;
 	}
 	.header-info{
@@ -73,6 +73,7 @@
 	}
 	.inner-box{
 		margin-top:30px;
+		height:auto;
 	}
 	.ph-about{
 		height:400px;
@@ -85,6 +86,9 @@
 }
 .table-bar{
 	margin:10px 0px;
+}
+.text-ph p{
+	padding:10px 0px;
 }
 .contact-box {
     margin: 0px 0px;
@@ -100,8 +104,15 @@
 	padding:20px 0px;
 }
 .pri-con-4{
-    right: -110px;
+    right: -65px;
     top: 17px;
+	width:200px;
+}
+.input-1{
+	padding:20px 10px;
+}
+.input-2{
+	padding:20px 10px;
 }
 .team-ph{
 	margin:20px 0px;
@@ -122,17 +133,104 @@
 	.container{
 		width:550px;
 	}
+
+}
+@media (max-width:768px){
+	
 }
 @media (min-width:768px){
 	.container{
 		width:720px;
 	}
+	.col-md-1{
+	flex:0 0 auto;
+	width:8.33%;
+}
+.col-md-2{
+	flex:0 0 auto;
+	width:16.66%;
+}
+.col-md-3{
+	flex:0 0 auto;
+	width:25%;
+}
+.col-md-4{
+	flex:0 0 auto;
+	width:33.33%;
+}
+.col-md-5{
+	flex:0 0 auto;
+	width:41.66%;
+}
+.col-md-6{
+	flex:0 0 auto;
+	width:50%;
+}
+.col-md-7{
+	flex:0 0 auto;
+	width:58.33%;
+}
+.col-md-8{
+	flex:0 0 auto;
+	width:66.66%;
+}
+.col-md-9{
+	flex:0 0 auto;
+	width:75%;
+}
+.col-md-10{
+	flex:0 0 auto;
+	width:83.33%;
+}
+.col-md-11{
+	flex:0 0 auto;
+	width:91.665%;
+}
+.col-md-12{
+	flex:0 0 auto;
+	width:100%;
+}
+    .col-md-none{
+		display:none;
+	}
 
+		.col-md-inner{
+		margin-top:30px;
+		height:auto;
+	}
+		.ph-about{
+		height:500px;
+	}
+		.about-content {
+    padding: 60px 0px 60px 0px;
+}
+.logos {
+    padding: 11px 30px;
+}
+.pri-con-4{
+    right: -131px;
+    top: 17px;
+	width:330px;
+}
+.footer-logo{
+	margin-top:20px;
+	justify-content:center;
+}
+.footer-end{
+	text-align:center;
+}
 }
 @media (min-width:992px){
 	.container{
 		width:950px;
 	}
+	.col-lg-block{
+	display:block !important;
+}
+	.col-lg-none{
+	display:none !important;
+}
+
 }
 @media (min-width:1200px){
 	.container{
@@ -186,6 +284,7 @@
 	flex:0 0 auto;
 	width:100%;
 }
+
 }
 @media (min-width:1400px){
 	.container{

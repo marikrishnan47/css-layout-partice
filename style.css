@@ -10,7 +10,7 @@
 	margin:0 auto;
 	width:100%;
 	padding: 0 15px;
-	
+	position:relative;
 }
 .row{
 	display:flex;
@@ -52,6 +52,9 @@
 }
 .align-items-baseline{
 	align-items:flex-baseline !important;
+}
+.d-none{
+	display:none;
 }
 /*=======header style======*/
 
@@ -135,9 +138,18 @@
 .link a.active{
 	color:var(--primary-color);
 }
-.navbar{
-	
+.nav .but-btn{
+	 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: auto;
+   background:transparent;
+   border:none;
+   font-size:36px;
 }
+
 .banner{
 	padding:30px 0px;
 	background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url("image/hero-bg.jpg");
@@ -259,7 +271,7 @@
 }
 .botton a.bt {
 	  border-radius:25px;
-	  padding:14px 25px;
+	  padding:14px 20px;
 	  transition:all.3s ease;
 	  font-size:15px;
 	  letter-spacing:1px;
@@ -428,7 +440,7 @@ padding:30px 0px;
 .cir {
 	position:absolute;
 	top:-30px;
-	left:50%;
+	left:48%;
 	transform:translateX(-50%);
 	width:60px;
 	height:60px;
@@ -456,7 +468,7 @@ padding:30px 0px;
 	transition:all .2s ease;
 }
 .services-info{
-	padding:10px 30px;
+	padding:10px 22px;
 	text-align:center;
 	box-shadow:0px 0px 20px #dee2e6 ;
 	margin-top:60px ;
@@ -1050,11 +1062,11 @@ padding:30px 0px;
 	border:solid 1px #ced4da;
 }
 .input-1{
-	padding:20px 10px;
+	padding:20px 24px;
 	width:100%;
 }
 .input-2{
-	padding:20px 10px;
+	padding:20px 24px;
 	width:100%;
 }
 .input-2 input{
