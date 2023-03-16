@@ -117,13 +117,8 @@
 .team-ph{
 	margin:20px 0px;
 }
-.footer-logo{
-	margin-top:20px;
-	justify-content:center;
-}
-.footer-end{
-	text-align:center;
-}
+
+
 .table-type{
 	padding:0px 14px;
 }
@@ -133,6 +128,13 @@
 	.container{
 		width:550px;
 	}
+	.footer-end{
+	text-align:center;
+}
+.footer-logo{
+	margin-top:20px;
+	justify-content:center;
+}
 
 }
 @media (max-width:768px){
@@ -213,7 +215,7 @@
 	width:330px;
 }
 .footer-logo{
-	margin-top:20px;
+	
 	justify-content:center;
 }
 .footer-end{
@@ -286,8 +288,12 @@
 }
 
 }
-@media (min-width:1400px){
+@media (max-width:1024px){
 	.container{
 		width:1320px;
+	}
+	.footer-logo{
+	    display: flex;
+        justify-content: flex-end !important;
 	}
 }
