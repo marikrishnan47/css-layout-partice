@@ -1,7 +1,7 @@
 :root{
 	--primary-color:#00bcd4;
 	--sec-color:#fff;
-	--bg-color:;
+
 }
 .header{
 	background-color:black;
@@ -138,15 +138,16 @@
 .link a.active{
 	color:var(--primary-color);
 }
-.nav .but-btn-1 {
+.nav .but-btn{
+	 
     position: absolute;
     top: 0;
-    right: 0;
+    right: 24px;
+    width: 40px;
     height: auto;
-    background: transparent;
-    border: none;
-    font-size: 36px;
-    text-align: end !important;
+   background:transparent;
+   border:none;
+   font-size:36px;
 }
 
 .banner{
@@ -384,9 +385,7 @@
 .company{
 padding:30px 0px;
 }
-.logos{
-	padding:10px 40px;
-}
+
 .logos img{
 	width:100%;
 	height:auto;
@@ -516,7 +515,7 @@ padding:30px 0px;
 }
 .ba{
 	width:100%;
-	height:auto%;
+	height:auto;
 	margin-bottom:20px;
 	padding:160px 30px 20px 30px ;
 	background-position:center;
@@ -687,7 +686,7 @@ padding:30px 0px;
 	  transition:all 1s ease;
 	  font-size:20px;
 	  letter-spacing:1px;
-	  background-color::#f0fbfd;
+	  background-color:#f0fbfd;
 	
 }
 .port-btn-1 a{
@@ -721,7 +720,7 @@ padding:30px 0px;
 
 .port img{
 	width:100%;
-	height:;
+	
 }
 .cont-port{
 	background-color:rgba(255, 255, 255, 0.9);
@@ -1090,7 +1089,7 @@ padding:30px 0px;
 }
 .input-4 textarea{
     
-    padding:10px 20px ;
+   padding:10px 20px ;
 	width:100%;
 	font-size:18px;
 	padding-bottom:80px ;
@@ -1117,11 +1116,11 @@ padding:30px 0px;
 	padding:30px 0px ;
 }
 .footer-la-1{
-	background-color:;
+	
 	padding:30px 0px ;
 }
 .footer-la-1 h1{
-	color:;
+	
 	font-weight:bold;
 	font-family: 'Raleway', sans-serif;
 	font-size:35px;
@@ -1167,7 +1166,7 @@ padding:30px 0px;
 	color:var(--primary-color);
 }
 .footer-la{
-	background-color:;
+	
 	padding:30px 0px ;
 }
 .footer-la p{
@@ -1203,27 +1202,20 @@ padding:30px 0px;
 	color:#fff;
 	box-shadow:0px 2px 15px rgb(0 0 0 / 10%);
 }
-.input-btn button:hover{
-	
-}
+
 
 
 .footer-end{
 	background-color:#fff;
-	padding:20px 0px;
+	padding:20px 0px ;
 }
 .footer-mail{
-	padding:10px 0px ;
-	text-align:start;
+	display:flex;
+  
+	align-items:center;
+	
 }
-.footer-mail h4{
-	color:#656262;
-	padding:10px 0px;
-}
-.footer-mail  span{
-	font-weight:700;
-	color:black;
-}
+
 .footer-mail p{
 	color:#656262;
 }
@@ -1236,8 +1228,8 @@ padding:30px 0px;
 }
 .footer-logo{
 	display:flex;
-	justify-content:flex-end;
-	padding:0px 0px;
+     justify-content:center;
+	align-items:center;
 	
 }
 
