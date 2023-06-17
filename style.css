@@ -3,8 +3,11 @@
 	--sec-color:#fff;
 
 }
-.header{
-	background-color:black;
+.header-1 {
+    background-color: #39312f;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .container{
 	margin:0 auto;
@@ -57,8 +60,65 @@
 	display:none;
 }
 /*=======header style======*/
+.nav-section{
+	position: sticky;
+    top: 34px;
+	z-index: 999;
 
-.header-info1 .botton a{
+}
+.header{
+	background:white;
+	width:100%;
+	padding: 10px;
+}
+li{
+	list-style:none;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+.nav-container{ 
+    width:80%; 
+    margin:auto;
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+.nav-menu {
+    display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+        }
+.nav-branding {
+    font-size: 35px;
+	color:rgba(0, 0, 0, 0.76);
+	font-weight: 600;
+        }
+.nav-link {
+    transition: 0.7s ease;
+	font-size:17px;
+        }
+.nav-link:hover {
+    color:#43cfd7;
+        }
+.hamburger {
+    display: none;
+    cursor: pointer;
+        }
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:  5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background:black;
+        }
+ .header-info1 .botton a{
 	background-color:var(--primary-color);
 	padding:14px 20px;
 }
@@ -85,19 +145,12 @@
 	padding-top:0px;
 	color: var(--primary-color);
 }
-.botton a{
-	color:white;
-	padding:10px 0px;
-	display:inline-block;
-	text-decoration:none;
-	text-align:center;
-	font-size:16px;
-}
+
 .text-right{
 	text-align:right !important;
 }
 
-.nav{
+/*.nav{
 	background-color:white;
    padding:14px 0px;
  
@@ -148,8 +201,15 @@
    background:transparent;
    border:none;
    font-size:36px;
+} */
+.botton a{
+	color:white;
+	padding:10px 0px;
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	font-size:16px;
 }
-
 .banner{
 	padding:30px 0px;
 	background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url("image/hero-bg.jpg");
@@ -304,6 +364,7 @@
 		display:flex;
 	justify-content:center;
 	align-items:center;    
+	height: auto;
 }
 .ph-about a{
 	background-color:var(--primary-color);

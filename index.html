@@ -15,7 +15,7 @@
 						<link rel="stylesheet" href="responsive.css">
 		</head>
 		<body>
-				<div class="header">
+				<div class="header-1">
 					<section class="container">
 						<div class="row">
 							<div class="col-lg-9 col-md-9 col-ms-9 ">
@@ -34,35 +34,28 @@
 						</div>			
 					</section>
 				</div>	
-							<div class= "nav ">	
-								<div class="container">
-									<div class="row align-items-center">
-									
-									  <button class="but-btn col-lg-none"><iconify-icon icon="ion:menu-sharp"></iconify-icon></button>
-								
-										<div class="col-lg-3">
-										  <div class="logo">
-										  <a href="#">Flexor</a>
-										  </div>
-										</div>
-										<div class="col-lg-9 d-none col-lg-block col-md-none">
-											<div class="navbar ">
-												<ul class="menu">
-													<li class="link"><a href="home" class="active">Home </a></li>
-													<li  class="link"><a href="about"> About</a></li>
-													<li  class="link"><a href="services">Servies </a></li>
-													<li  class="link"><a href="portfoilo">Portfoilo</a> </li>
-													<li  class="link"><a href="team"> Team </a></li>
-													<li  class="link"><a href="pricing">Pricing </a></li>
-													<li  class="link"><a href="blog"> Blog </a></li>
-													<li  class="link"><a href="dropdown">Drop Dow</a></li>
-													<li  class="link"><a href="cantact"> Contact</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
+				<div class="nav-section">
+					<header class="header">
+						<div class="nav-container">
+							<nav class="navbar">
+							<a href="#" class="nav-branding">Flexor</a>
+						<ul class="nav-menu">
+								<li class="nav-item" id="active"> <a href="#"class="nav-link">Home</a></li>
+								<li class="nav-item"> <a href="#about"class="nav-link">About</a></li>
+								<li class="nav-item"> <a href="#services" class="nav-link">Services</a></li>
+								<li class="nav-item"> <a href="#portfolio" class="nav-link">Portfolio</a></li>
+								<li class="nav-item"> <a href="#team" class="nav-link">Team</a></li>
+								<li class="nav-item"> <a href="#pricing" class="nav-link">Pricing</a></li>
+								<li class="nav-item"> <a href="#FAQ" class="nav-link">FAQ</a></li>
+								<li class="nav-item"> <a href="#contact" class="nav-link">Contact</a></li>
+							</ul>
+							<div class="hamburger">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span>
 							</div>
+						</nav>
+					</header>
 				</div>
 			<!------header end --->
 
@@ -129,7 +122,7 @@
 			    </div>
 		    </div>
 <!------- layer end---->
-            <div class="about">
+            <div class="about" id="about">
 				<div class="container">
 				    <div class="row">
 						<div class="col-lg-5 ph-about col-xl-5">
@@ -177,7 +170,7 @@
 			    </div>
 		    </div>
 <!----- about end------>
-			<div class="company">
+			<div class="company " >
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-2 col-xs-4 col-md-3  col-ms-2">
@@ -222,7 +215,7 @@
 				</div>
 			</div>
 <!------- logo end ---->
-            <div class="services">
+            <div class="services" id="services">
 				<div class="container">
 								<div class="row">
 											 <div class="title-head">
@@ -235,7 +228,7 @@
 												 <div class="services-info"> 
 												 <div class="cir">  <iconify-icon icon="bi:briefcase"></iconify-icon></div>
 												   <h2>LOREM IPSUM</h2>
-												   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+								 				   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
 												 </div>
 											</div>
 											<div class="col-lg-4 col-md-6 col-xl-6">
@@ -283,7 +276,7 @@
 			        </div>
 		     </div>
 	<!------ services end ----->
-                <div class="picture">
+                <div class="picture" >
 				    <div class="container">
 						<div class="row">
 							    <div class="col-lg-6 col-md-6 col-xl-6">
@@ -357,7 +350,7 @@
 				</div>
 			</div>
 <!----- member end----->	
-            <div class="portfolio">
+            <div class="portfolio" id="portfolio">
 				<div class="container">
 				            <div class="title-head">
 						      <h3> Portfolio</h3>
@@ -503,7 +496,7 @@
 		    </div>		
  
 <!------- portfoilo end------>	
-            <div class="team">
+            <div class="team" id="team">
 				<div class="container">
 						    <div class="title-head">
 						     <h3> Team</h3>
@@ -584,7 +577,7 @@
 			    </div>
 		    </div>
 <!------- team end------>
-             <div class="pricing">
+             <div class="pricing" id="pricing">
 				<div class="container">
 					    <div class="title-head">
 						     <h3> Pricing</h3>
@@ -641,7 +634,7 @@
 			    </div>
 		    </div>
 <!------- pricing end -->
-            <div class="table">
+            <div class="table" id="FAQ">
 				<div class="container">
 				  	    <div class="title-head">
 						     <h3> F.A.Q</h3>
@@ -702,7 +695,7 @@
 			    </div>
 		    </div>
 		<!-------- table end ---->
-	        <div class="contact">
+	        <div class="contact" id="contact">
 				<div class="container">
 					    <div class="title-head">
 						     <h3> Contact</h3>
@@ -860,6 +853,7 @@
 					</div>
 				</div>
 			</div>
+			<script src="flexor.js"></script>
 			<!-- --------------------end ----------------------------- -->
 		</body>
 	</html>
