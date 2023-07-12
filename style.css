@@ -3,11 +3,14 @@
 	--sec-color:#fff;
 
 }
-.header-1 {
-    background-color: #39312f;
-    position: sticky;
+.header-page{
+	position: sticky;
     top: 0;
     z-index: 999;
+}
+.header-1 {
+    background-color: #39312f;
+   
 }
 .container{
 	margin:0 auto;
@@ -69,7 +72,7 @@
 .header{
 	background:white;
 	width:100%;
-	padding: 10px;
+	padding: 4px 0px ;
 }
 li{
 	list-style:none;
@@ -91,7 +94,7 @@ a{
     display: flex;
 	justify-content: flex-end;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
         }
 .nav-branding {
     font-size: 35px;
@@ -364,7 +367,7 @@ a{
 		display:flex;
 	justify-content:center;
 	align-items:center;    
-	height: auto;
+	height: 90vh;
 }
 .ph-about a{
 	background-color:var(--primary-color);
@@ -448,7 +451,7 @@ padding:30px 0px;
 }
 
 .logos img{
-	width:100%;
+	width:60%;
 	height:auto;
 	filter:grayscale(100%);
 	opacity:0.5;
@@ -1272,8 +1275,9 @@ padding:30px 0px;
 }
 .footer-mail{
 	display:flex;
-  
+	height: 100%;
 	align-items:center;
+	justify-content: center;
 	
 }
 

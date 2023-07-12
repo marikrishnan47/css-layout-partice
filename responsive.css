@@ -246,9 +246,7 @@
 .table-bar{
 	margin: 10px 62px;
 }
-.contact-2 {
-    padding: 0px 20px;
-}
+
 .cont{
 	padding:20px 0px;
 }
@@ -268,7 +266,7 @@
 	margin:20px 0px;
 }
 .footer-logo{
-	margin-top:20px;
+
 	justify-content:center;
 }
 .footer-end{
@@ -281,7 +279,7 @@
 @media (max-width:768px){
 	
 }
-@media (max-width:576px) and (min-width:768px){
+@media  (min-width: 766px) and (max-width: 1023px){
 	.container{
 		width:720px;
 	}
@@ -347,9 +345,7 @@
 		margin-top:30px;
 		height:auto;
 	}
-		.ph-about{
-		height:500px;
-	}
+
 		.about-content {
     padding: 60px 0px 60px 0px;
 }
